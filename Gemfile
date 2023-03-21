@@ -24,6 +24,10 @@ gem "bootsnap", require: false
 
 gem "dotenv-rails", "~> 2.8", ">= 2.8.1"
 
+gem "rack-cors", "~> 2.0", ">= 2.0.1"
+
+gem "rack-attack", "~> 6.6", ">= 6.6.1"
+
 group :development, :test do
   # Great Ruby debugging companion: pretty print Ruby objects to visualize their structure. Supports custom object formatting via plugins
   gem "awesome_print", "~> 1.9", ">= 1.9.2"
